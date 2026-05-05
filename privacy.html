@@ -3,60 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>隱私權政策 - 食決 Foodie Choice</title>
+    <title>隱私權政策 - 食決 App</title>
     <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-        h1 { color: #FF7E36; }
-        h2 { border-left: 4px solid #FF7E36; padding-left: 10px; margin-top: 30px; }
-        p, li { margin-bottom: 10px; }
-        .footer { margin-top: 50px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 20px; }
+        :root {
+            --primary-color: #f39c12;
+            --text-color: #2c3e50;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: var(--card-bg);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 15px;
+            margin-top: 35px;
+            font-size: 22px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        p, ul, li {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background-color: #fff9f0;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-bottom: 40px;
+            color: #95a5a6;
+            font-size: 0.85em;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                padding: 20px;
+                border-radius: 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>隱私權政策</h1>
-    <p>最後更新日期：2026年5月4日</p>
 
-    <p>「食決 Foodie Choice」（以下簡稱「本應用程式」）由開發者 Hsu,Hung-Che（以下簡稱「我們」）開發。我們非常重視您的隱私，並致力於保護您的個人資料。本隱私權政策旨在說明我們如何收集、使用、披露及保護您的資訊，以符合 Apple App Store 的要求及相關法規。</p>
+<div class="container">
+    <header>
+        <h1>「食決」隱私權政策</h1>
+        <p class="last-updated">最後更新日期：2026年5月5日</p>
+    </header>
+
+    <p>感謝您使用「食決」（以下簡稱「本應用程式」或「我們」）。我們非常重視您的隱私權。本隱私權政策旨在說明我們如何收集、使用、保護及分享您的個人資訊，以及您針對這些資訊所擁有的權利。</p>
 
     <h2>1. 我們收集的資訊</h2>
-    <p>為了提供穩定的服務，我們可能會收集以下資訊：</p>
+    <p>為了提供您更完善的服務，我們會收集以下類型的資訊：</p>
     <ul>
-        <li><strong>帳戶資訊：</strong> 當您註冊或登入時，我們收集您的電子郵件地址、顯示名稱、個人頭像（來自 Google/Apple 授權）。</li>
-        <li><strong>位置資訊：</strong> 為了提供附近的餐廳搜尋服務，本應用程式會要求存取您的精確或概略位置。</li>
-        <li><strong>使用數據：</strong> 包括搜尋紀錄、收藏列表、裝置資訊及當機回報，用於優化產品效能。</li>
+        <li><strong>個人識別資訊：</strong> 您的電子郵件地址、名字和姓氏、電話號碼。</li>
+        <li><strong>社群媒體登入資訊：</strong> 若您選擇透過第三方社群媒體（如 Facebook 或 Twitter）登入，我們會收集您在該平台的公開個人資料資訊。</li>
+        <li><strong>裝置與位置資訊：</strong> 為了提供特定功能（例如尋找附近的餐廳），我們可能會收集您的精確裝置位置（GPS 資料）。</li>
     </ul>
 
-    <h2>2. 資訊的使用方式</h2>
+    <h2>2. 我們如何使用您的資訊</h2>
+    <p>我們收集的資訊將用於以下用途：</p>
     <ul>
-        <li>提供、維持及優化服務。</li>
-        <li>進行身分驗證，確保帳戶安全。</li>
-        <li>提供個人化的內容（如收藏、推薦）。</li>
-        <li>用於防止不當使用、詐欺或非法攻擊。</li>
+        <li><strong>帳戶驗證與通訊：</strong> 傳送登入驗證碼、密碼重設等安全性電子郵件，以及回應您的客服需求。</li>
+        <li><strong>核心服務運作：</strong> 建立及管理您的帳戶，並根據您的 GPS 位置提供個人化的美食選擇。</li>
+        <li><strong>服務優化與分析：</strong> 我們使用 Google Analytics 或類似之追蹤與分析工具，來了解使用者行為並改善我們的應用程式。</li>
     </ul>
 
-    <h2>3. 資訊的分享與披露</h2>
-    <p>我們不會將您的個人資料出售給第三方。我們僅在以下情況分享資訊：</p>
+    <h2>3. 第三方服務與應用程式內購買</h2>
     <ul>
-        <li><strong>服務供應商：</strong> 我們使用 Google Firebase 作為後端儲存與驗證服務。</li>
-        <li><strong>法律要求：</strong> 若法律有明文規定或為了配合執法機關調查。</li>
+        <li><strong>無廣告投放：</strong> 本應用程式<strong>不包含</strong>任何第三方廣告投放。我們不會將您的個人資料提供給廣告商。</li>
+        <li><strong>付費與內購：</strong> 我們提供付費產品或服務。所有的交易與付款處理皆透過第三方平台（Apple App Store 或 Google Play）進行。我們不會直接收集、儲存或處理您的信用卡或詳細付款資訊。</li>
     </ul>
 
-    <h2>4. 資料保存與刪除</h2>
-    <p>我們僅在提供服務所需的期間內保留您的資料。您可以隨時透過應用程式內的設定或聯絡開發者，要求刪除您的帳戶及所有相關資料。</p>
+    <h2>4. 兒童隱私權</h2>
+    <p>我們的應用程式沒有年齡限制，適合所有年齡層的用戶使用。然而，對於未滿 13 歲（或您所在司法管轄區規定的其他法定同意年齡）的兒童，若我們得知在未獲監護人同意的情況下收集了資訊，我們將採取必要措施盡快刪除。</p>
 
-    <h2>5. 第三方 SDK 與服務</h2>
-    <p>本應用程式包含以下第三方服務，其隱私政策請參閱各該網站：</p>
+    <h2>5. 加州隱私權利 (CCPA 與 CPRA)</h2>
+    <p>針對美國加州居民，您享有以下權利：</p>
     <ul>
-        <li>Google Firebase (Authentication, Firestore, Analytics)</li>
-        <li>Google Maps API</li>
-        <li>Apple Maps API</li>
+        <li><strong>知情權：</strong> 要求揭露過去 12 個月內收集的個人資訊類別。</li>
+        <li><strong>刪除權與更正權：</strong> 要求刪除或更正您的個人資訊。</li>
+        <li><strong>拒絕出售權：</strong> 我們承諾<strong>不會出售</strong>您的個人資訊。</li>
     </ul>
 
-    <h2>7. 政策變更</h2>
-    <p>我們可能會不時更新本政策。重大變更將透過應用程式內公告通知。</p>
+    <h2>6. 加州線上隱私權保護法 (CalOPPA)</h2>
+    <p>根據 CalOPPA，我們同意以下事項：</p>
+    <ul>
+        <li>用戶可以匿名造訪我們的應用程式。</li>
+        <li>隱私權政策的連結將清晰地放置於應用程式內。</li>
+        <li>政策若有變更，我們將在隱私權政策頁面上發布更新通知。</li>
+    </ul>
 
-    <div class="footer">
-        如有任何疑問，請聯繫電子郵件：showing-fondue-6u@icloud.com
+    <h2>7. 歐盟一般資料保護規則 (GDPR)</h2>
+    <p>針對位於歐洲經濟區 (EEA) 的用戶，您擁有以下權利：</p>
+    <ul>
+        <li><strong>存取權：</strong> 有權要求獲取您的個人資料副本。</li>
+        <li><strong>被遺忘權：</strong> 有權要求更正錯誤資訊或刪除您的資料。</li>
+        <li><strong>資料可攜權：</strong> 有權要求將您的資料轉移給其他機構。</li>
+        <li><strong>撤回同意：</strong> 您可隨時撤回對資料處理的同意。</li>
+    </ul>
+
+    <div class="contact-box">
+        <h2>8. 聯絡我們</h2>
+        <p>如果您對本隱私權政策有任何疑問，請透過以下電子郵件與我們聯絡：</p>
+        <p><strong>電子郵件：</strong> <a href="mailto:showing-fondue-6u@icloud.com">showing-fondue-6u@icloud.com</a></p>
     </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 食決 App. 版權所有.
+</div>
+
 </body>
 </html>
